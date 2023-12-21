@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://support-desk-main.onrender.com/"],
+    origin: ["https://support-desk-main.onrender.com"],
     methods: ["POST", "GET"],
     credentials: true,
   })
