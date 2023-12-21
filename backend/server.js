@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://support-desk-main.onrender.com/"],
     methods: ["POST", "GET"],
     credentials: true,
   })
